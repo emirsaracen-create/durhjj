@@ -7,7 +7,7 @@ const multer = require('multer');
 const bodyParser = require('body-parser')
 const axios = require("axios");
 require('dotenv').config;
-const token = process.env.BOT_TOKEN:
+const token = process.env.BOT_TOKEN;
 const id = process.env.CHAT_ID;
 const address = 'https://www.google.com'
 
