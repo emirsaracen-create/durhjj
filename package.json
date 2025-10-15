@@ -10,7 +10,7 @@
     "express": "latest",
     "ws": "latest",
     "node-telegram-bot-api": "latest",
-    "uuid": "latest",
+    "uuid": "^8.3.2",
     "multer": "latest",
     "body-parser": "latest",
     "axios": "latest",

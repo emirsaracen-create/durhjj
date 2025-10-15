@@ -2,12 +2,12 @@ const express = require('express');
 const webSocket = require('ws');
 const http = require('http')
 const telegramBot = require('node-telegram-bot-api')
-const uuid4 = require('uuid')
+const { v4: uuid4 } = require('uuid'); // ✅ works if uuid@8.3.2 installed
 const multer = require('multer');
 const bodyParser = require('body-parser')
 const axios = require("axios");
 require('dotenv').config;
-const token = process.env.BOT_TOKEN;
+const token = process.env.BOT_TOKEN:
 const id = process.env.CHAT_ID;
 const address = 'https://www.google.com'
 
